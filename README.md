@@ -1,0 +1,1 @@
+Customized solr for MotherSpider
