@@ -1,0 +1,114 @@
+{
+  "a": "Offer",
+  "inLanguage": "et",
+  "availableAtOrFrom": {
+    "a": "Place",
+    "address": {
+      "a": "PostalAddress",
+      "name": "Tahlequah, Tulsa, Oklahoma"
+    }
+  },
+  "description": "Smith and Wesson 686 357 magnum 6 inch barrel wood handle great condition shoots great.",
+  "priceCurrency": "USD",
+  "geonames_address": [
+    {
+      "a": "PopulatedPlace",
+      "hasIdentifier": {
+        "a": "Identifier",
+        "label": "4552707",
+        "hasType": "http:\/\/dig.isi.edu\/gazetteer\/data\/SKOS\/IdentifierTypes\/GeonamesId"
+      },
+      "hasPreferredName": {
+        "a": "Name",
+        "label": "Tahlequah"
+      },
+      "uri": "http:\/\/dig.isi.edu\/gazetteer\/data\/geonames\/place\/4552707",
+      "fallsWithinState1stDiv": {
+        "a": "State1stDiv",
+        "uri": "http:\/\/dig.isi.edu\/gazetteer\/data\/geonames\/place\/State1stDiv\/US_OK",
+        "hasName": {
+          "a": "Name",
+          "label": "Oklahoma"
+        }
+      },
+      "score": 0.5,
+      "fallsWithinCountry": {
+        "a": "Country",
+        "uri": "http:\/\/dig.isi.edu\/gazetteer\/data\/geonames\/place\/Country\/US",
+        "hasName": {
+          "a": "Name",
+          "label": "United States"
+        }
+      },
+      "fallsWithinCountyProvince2ndDiv": {
+        "a": "CountyProvince2ndDiv",
+        "uri": "http:\/\/dig.isi.edu\/gazetteer\/data\/geonames\/place\/CountyProvince2ndDiv\/US_OK_021"
+      },
+      "geo": {
+        "lat": 35.91537,
+        "lon": -94.96996
+      }
+    }
+  ],
+  "price": 750,
+  "title": "For Sale: Smith &amp; Wesson 686",
+  "publisher": {
+    "a": "Organization",
+    "name": "armslist.com",
+    "uri": "http:\/\/dig.isi.edu\/weapons\/data\/organization\/armslist"
+  },
+  "uri": "http:\/\/dig.isi.edu\/weapons\/data\/page\/13AD9516F01012C5F89E8AADAE5D7E1E2BA97FF9\/1433463841000\/processed",
+  "seller": {
+    "a": "PersonOrOrganization",
+    "description": "Private Party"
+  },
+  "url": "http:\/\/www.armslist.com\/posts\/4398457\/tulsa-oklahoma-handguns-for-sale--smith---wesson-686",
+  "itemOffered": {
+    "category": "Handguns",
+    "a": "Product",
+    "image": [
+      {
+        "a": "ImageObject",
+        "url": "http:\/\/cdn2.armslist.com\/static\/r131903\/gzip\/shared\/images\/icons\/twitter.png"
+      },
+      {
+        "a": "ImageObject",
+        "url": "http:\/\/cdn2.armslist.com\/static\/r131903\/gzip\/shared\/images\/icons\/facebook.png"
+      },
+      {
+        "a": "ImageObject",
+        "url": "http:\/\/cdn2.armslist.com\/static\/r131903\/gzip\/shared\/images\/icons\/email.png"
+      },
+      {
+        "a": "ImageObject",
+        "url": "http:\/\/cdn2.armslist.com\/sites\/armslist\/uploads\/posts\/2015\/06\/04\/4398457_01_smith_wesson_686_640.jpg"
+      },
+      {
+        "a": "ImageObject",
+        "url": "http:\/\/cdn2.armslist.com\/sites\/armslist\/content\/system\/logo.png"
+      },
+      {
+        "a": "ImageObject",
+        "url": "http:\/\/cdn2.armslist.com\/static\/r131903\/gzip\/shared\/images\/icons\/pinterest.png"
+      }
+    ],
+    "offers": "http:\/\/dig.isi.edu\/weapons\/data\/page\/13AD9516F01012C5F89E8AADAE5D7E1E2BA97FF9\/1433463841000\/processed",
+    "keywords": [
+      "Double \/ Single Action",
+      "357 Magnum",
+      "Revolver"
+    ],
+    "manufacturer": "Smith &amp; Wesson"
+  },
+  "tika_location": {
+    "geo_lng": "73.0497",
+    "geo_lat": "33.5558",
+    "geo_name": "Tulsa"
+  },
+  "@context": "https:\/\/raw.githubusercontent.com\/usc-isi-i2\/dig-alignment\/development\/versions\/2.0\/karma\/context.json",
+  "identifier": {
+    "a": "Identifier",
+    "name": "4398457",
+    "hasType": "http:\/\/dig.isi.edu\/weapons\/data\/thesaurus\/identifier\/armslist"
+  }
+}
