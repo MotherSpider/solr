@@ -110,7 +110,10 @@
         <field name="itemOffered.offers" type="string" stored="true" indexed="true" />
         <field name="description" type="string" stored="true" indexed="true" />
         <field name="tika_location.geo_lng" type="string" stored="true" indexed="true" />
-        <field name="price" type="float" stored="true" indexed="true" />
+        <field name="tika_location.alternate_locations.alt_geo_name" type="string" stored="true" indexed="true" />
+        <field name="tika_location.alternate_locations.alt_geo_lat" type="string" stored="true" indexed="true" />
+        <field name="tika_location.alternate_locations.alt_geo_lng" type="string" stored="true" indexed="true" />
+        <field name="price" type="string" stored="true" indexed="true" />
         <field name="geonames_address.hasIdentifier.label" type="float" stored="true" indexed="true" />
         <field name="itemOffered.manufacturer" type="string" stored="true" indexed="true" />
         <field name="tika_location.geo_name" type="string" stored="true" indexed="true" />
@@ -127,12 +130,31 @@
         <field name="publisher.name" type="string" stored="true" indexed="true" />
         <field name="geonames_address.hasIdentifier.hasType" type="string" stored="true" indexed="true" />
         <field name="itemOffered.image.a" type="string" stored="true" indexed="true" />
+        <field name="itemOffered.itemCondition" type="string" stored="true" indexed="true" />
+        <field name="itemOffered.model" type="string" stored="true" indexed="true" />
         <field name="url" type="string" stored="true" indexed="true" />
         <field name="geonames_address.fallsWithinCountyProvince2ndDiv.a" type="string" stored="true" indexed="true" />
         <field name="availableAtOrFrom.address.a" type="string" stored="true" indexed="true" />
         <field name="geonames_address.fallsWithinState1stDiv.hasName.a" type="string" stored="true" indexed="true" />
         <field name="geonames_address.fallsWithinCountyProvince2ndDiv.uri" type="string" stored="true" indexed="true" />
         <field name="geonames_address.geo.lon" type="float" stored="true" indexed="true" />
+		<field name="availabilityStarts" type="string" stored="true" indexed="true" />
+        <field name="seller.memberOf.memberOf.uri" type="string" stored="true" indexed="true" />
+		<field name="seller.memberOf.startDate" type="string" stored="true" indexed="true" />
+		<field name="seller.memberOf.memberOf.name" type="string" stored="true" indexed="true" />
+		<field name="seller.memberOf.memberOf.a" type="string" stored="true" indexed="true" />
+		<field name="seller.memberOf.a" type="string" stored="true" indexed="true" />
+		<field name="seller.contactPoint.name" type="string" stored="true" indexed="true" />
+		<field name="seller.contactPoint.a" type="string" stored="true" indexed="true" />
+		<field name="buyer.memberOf.memberOf.uri" type="string" stored="true" indexed="true" />
+		<field name="buyer.memberOf.startDate" type="string" stored="true" indexed="true" />
+		<field name="buyer.memberOf.memberOf.name" type="string" stored="true" indexed="true" />
+		<field name="buyer.memberOf.memberOf.a" type="string" stored="true" indexed="true" />
+		<field name="buyer.memberOf.a" type="string" stored="true" indexed="true" />
+		<field name="buyer.description" type="string" stored="true" indexed="true" />
+		<field name="buyer.a" type="string" stored="true" indexed="true" />
+		<field name="buyer.contactPoint.name" type="string" stored="true" indexed="true" />
+		<field name="buyer.contactPoint.a" type="string" stored="true" indexed="true" />
     </fields>
 
     <uniqueKey>url</uniqueKey>
