@@ -44,6 +44,7 @@
             omitNorms="true" positionIncrementGap="0"/>
         <fieldType name="location" class="solr.LatLonType" subFieldSuffix="_coordinate"/>
 
+       <field name="features" type="text" indexed="true" stored="true" multiValued="true" termVectors="true" termPositions="true" termOffsets="true" omitTermFreqAndPositions="false"/>
         
             <!-- boolean type: "true" or "false" -->
         <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
