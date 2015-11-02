@@ -5054,3 +5054,21 @@ INFO  - 2015-11-02 01:43:08.690; org.apache.solr.servlet.SolrDispatchFilter; [ad
 INFO  - 2015-11-02 01:43:18.707; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457398700} status=0 QTime=0 
 INFO  - 2015-11-02 01:43:28.728; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457408721} status=0 QTime=0 
 INFO  - 2015-11-02 01:43:39.072; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457419067} status=0 QTime=0 
+INFO  - 2015-11-02 01:43:49.110; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457429105} status=0 QTime=0 
+INFO  - 2015-11-02 01:43:59.132; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457439125} status=0 QTime=0 
+INFO  - 2015-11-02 01:44:09.145; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457449143} status=0 QTime=0 
+INFO  - 2015-11-02 01:44:15.304; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2015-11-02 01:44:15.307; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/workspaces/solr/solr-4.10.4/example/solr-webapp/webapp/},/workspaces/solr/solr-4.10.4/example/webapps/solr.war
+INFO  - 2015-11-02 01:44:16.313; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=375457936
+INFO  - 2015-11-02 01:44:16.316; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@68902dc
+INFO  - 2015-11-02 01:44:16.318; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=214,autocommit maxTime=15000ms,autocommits=214,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=149805,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=1287309,transaction_logs_total_number=1}
+INFO  - 2015-11-02 01:44:16.320; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2015-11-02 01:44:16.320; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2015-11-02 01:44:16.320; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2015-11-02 01:44:16.344; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2015-11-02 01:44:16.356; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2015-11-02 01:44:16.357; org.apache.solr.core.CachingDirectoryFactory; looking to close /workspaces/solr/solr-4.10.4/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/workspaces/solr/solr-4.10.4/example/solr/collection1/data/index;done=false>>]
+INFO  - 2015-11-02 01:44:16.358; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /workspaces/solr/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2015-11-02 01:44:16.358; org.apache.solr.core.CachingDirectoryFactory; looking to close /workspaces/solr/solr-4.10.4/example/solr/collection1/data [CachedDir<<refCount=0;path=/workspaces/solr/solr-4.10.4/example/solr/collection1/data;done=false>>]
+INFO  - 2015-11-02 01:44:16.358; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /workspaces/solr/solr-4.10.4/example/solr/collection1/data
+INFO  - 2015-11-02 01:44:16.368; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/workspaces/solr/solr-4.10.4/example/solr-webapp/webapp/},/workspaces/solr/solr-4.10.4/example/webapps/solr.war
