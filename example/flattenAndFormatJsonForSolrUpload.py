@@ -41,13 +41,18 @@ def main():
     args = sys.argv[1:];
     dir = args[0]
     newDir = args[1]
+    if not os.path.exists(newDir):
+        os.makedirs(newDir)
     fileNames = os.listdir(dir);
+    count = 0
     for fileName in fileNames:
+        if not fileName.startswith("._"):
+            count += 1
             text = open(dir+'/'+fileName, 'r').read()
             text = appendMetaDataToFile(flattenDict(json.loads(text)))
             writeJsonToFile(newDir+"/"+fileName, text);
-
-
+            print "File #" + str(count) + " flattened"
+    
 if __name__ == '__main__':
     main()
 
