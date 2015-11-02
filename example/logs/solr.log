@@ -5047,3 +5047,10 @@ INFO  - 2015-11-02 01:41:58.432; org.apache.solr.servlet.SolrDispatchFilter; [ad
 INFO  - 2015-11-02 01:42:08.460; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457328450} status=0 QTime=0 
 INFO  - 2015-11-02 01:42:18.531; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457338522} status=0 QTime=0 
 INFO  - 2015-11-02 01:42:28.595; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457348587} status=0 QTime=0 
+INFO  - 2015-11-02 01:42:38.634; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457358629} status=0 QTime=0 
+INFO  - 2015-11-02 01:42:48.656; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457368650} status=0 QTime=0 
+INFO  - 2015-11-02 01:42:58.674; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457378667} status=0 QTime=0 
+INFO  - 2015-11-02 01:43:08.690; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457388688} status=0 QTime=0 
+INFO  - 2015-11-02 01:43:18.707; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457398700} status=0 QTime=0 
+INFO  - 2015-11-02 01:43:28.728; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457408721} status=0 QTime=0 
+INFO  - 2015-11-02 01:43:39.072; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/logging params={wt=json&since=1446454347043&_=1446457419067} status=0 QTime=0 
