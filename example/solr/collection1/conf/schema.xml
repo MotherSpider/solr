@@ -151,7 +151,11 @@
 		<field name="buyer.memberOf.memberOf.name" type="string" stored="true" indexed="true" />
 		<field name="buyer.memberOf.memberOf.a" type="string" stored="true" indexed="true" />
 		<field name="buyer.memberOf.a" type="string" stored="true" indexed="true" />
-		<field name="buyer.description" type="string" stored="true" indexed="true" />
+        <field name="buyer.description" type="string" stored="true" indexed="true" />
+        <field name="seller.contactPoint.telephone.a" type="string" stored="true" indexed="true" />
+        <field name="buyer.contactPoint.telephone.a" type="string" stored="true" indexed="true" />
+        <field name="seller.contactPoint.telephone.name" type="string" stored="true" indexed="true" />
+        <field name="buyer.contactPoint.telephone.name" type="string" stored="true" indexed="true" />
 		<field name="buyer.a" type="string" stored="true" indexed="true" />
 		<field name="buyer.contactPoint.name" type="string" stored="true" indexed="true" />
 		<field name="buyer.contactPoint.a" type="string" stored="true" indexed="true" />
