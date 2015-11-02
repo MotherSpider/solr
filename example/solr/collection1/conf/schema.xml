@@ -38,6 +38,8 @@
             omitNorms="true" positionIncrementGap="0"/>
         <fieldType name="tdouble" class="solr.TrieDoubleField" precisionStep="0"
             omitNorms="true" positionIncrementGap="0"/>
+        <fieldType name="double" class="solr.TrieDoubleField" precisionStep="0"
+            omitNorms="true" positionIncrementGap="0"/>
         <fieldType name="float" class="solr.TrieFloatField" precisionStep="0"
             omitNorms="true" positionIncrementGap="0"/>
         <fieldType name="date" class="solr.TrieDateField" precisionStep="0"
@@ -138,27 +140,51 @@
         <field name="geonames_address.fallsWithinState1stDiv.hasName.a" type="string" stored="true" indexed="true" />
         <field name="geonames_address.fallsWithinCountyProvince2ndDiv.uri" type="string" stored="true" indexed="true" />
         <field name="geonames_address.geo.lon" type="float" stored="true" indexed="true" />
-		<field name="availabilityStarts" type="string" stored="true" indexed="true" />
+        <field name="availabilityStarts" type="string" stored="true" indexed="true" />
         <field name="seller.memberOf.memberOf.uri" type="string" stored="true" indexed="true" />
-		<field name="seller.memberOf.startDate" type="string" stored="true" indexed="true" />
-		<field name="seller.memberOf.memberOf.name" type="string" stored="true" indexed="true" />
-		<field name="seller.memberOf.memberOf.a" type="string" stored="true" indexed="true" />
-		<field name="seller.memberOf.a" type="string" stored="true" indexed="true" />
-		<field name="seller.contactPoint.name" type="string" stored="true" indexed="true" />
-		<field name="seller.contactPoint.a" type="string" stored="true" indexed="true" />
-		<field name="buyer.memberOf.memberOf.uri" type="string" stored="true" indexed="true" />
-		<field name="buyer.memberOf.startDate" type="string" stored="true" indexed="true" />
-		<field name="buyer.memberOf.memberOf.name" type="string" stored="true" indexed="true" />
-		<field name="buyer.memberOf.memberOf.a" type="string" stored="true" indexed="true" />
-		<field name="buyer.memberOf.a" type="string" stored="true" indexed="true" />
+        <field name="seller.memberOf.startDate" type="string" stored="true" indexed="true" />
+        <field name="seller.memberOf.memberOf.name" type="string" stored="true" indexed="true" />
+        <field name="seller.memberOf.memberOf.a" type="string" stored="true" indexed="true" />
+        <field name="seller.memberOf.a" type="string" stored="true" indexed="true" />
+        <field name="seller.contactPoint.name" type="string" stored="true" indexed="true" />
+        <field name="seller.contactPoint.a" type="string" stored="true" indexed="true" />
+        <field name="buyer.memberOf.memberOf.uri" type="string" stored="true" indexed="true" />
+        <field name="buyer.memberOf.startDate" type="string" stored="true" indexed="true" />
+        <field name="buyer.memberOf.memberOf.name" type="string" stored="true" indexed="true" />
+        <field name="buyer.memberOf.memberOf.a" type="string" stored="true" indexed="true" />
+        <field name="buyer.memberOf.a" type="string" stored="true" indexed="true" />
         <field name="buyer.description" type="string" stored="true" indexed="true" />
-        <field name="seller.contactPoint.telephone.a" type="string" stored="true" indexed="true" />
-        <field name="buyer.contactPoint.telephone.a" type="string" stored="true" indexed="true" />
+        <field name="buyer.a" type="string" stored="true" indexed="true" />
+        <field name="buyer.contactPoint.name" type="string" stored="true" indexed="true" />
+        <field name="buyer.contactPoint.a" type="string" stored="true" indexed="true" />
         <field name="seller.contactPoint.telephone.name" type="string" stored="true" indexed="true" />
-        <field name="buyer.contactPoint.telephone.name" type="string" stored="true" indexed="true" />
-		<field name="buyer.a" type="string" stored="true" indexed="true" />
-		<field name="buyer.contactPoint.name" type="string" stored="true" indexed="true" />
-		<field name="buyer.contactPoint.a" type="string" stored="true" indexed="true" />
+        <field name="seller.contactPoint.telephone.a" type="string" stored="true" indexed="true" />
+        <field name="geonames_address.fallsWithinCommunity3rdDiv.uri" type="string" stored="true" indexed="true" />
+        <field name="geonames_address.fallsWithinCommunity3rdDiv.a" type="string" stored="true" indexed="true" />
+        <field name="priceSpecification.a" type="string" stored="true" indexed="true" />
+        <field name="priceSpecification.priceCurrency" type="string" stored="true" indexed="true" />
+        <field name="priceSpecification.price" type="string" stored="true" indexed="true" />
+        <field name="itemOffered.serialNumber" type="string" stored="true" indexed="true" />
+
+
+
+        <dynamicField name="*_is" type="int"    indexed="true"  stored="true"  multiValued="true"/>
+        <dynamicField name="*_s"  type="string"  indexed="true"  stored="true" />
+        <dynamicField name="*_ss" type="string"  indexed="true"  stored="true" multiValued="true"/>
+        <dynamicField name="*_l"  type="long"   indexed="true"  stored="true"/>
+        <dynamicField name="*_ls" type="long"   indexed="true"  stored="true"  multiValued="true"/>
+        <dynamicField name="*_b"  type="boolean" indexed="true" stored="true"/>
+        <dynamicField name="*_bs" type="boolean" indexed="true" stored="true"  multiValued="true"/>
+        <dynamicField name="*_f"  type="float"  indexed="true"  stored="true"/>
+        <dynamicField name="*_fs" type="float"  indexed="true"  stored="true"  multiValued="true"/>
+        <dynamicField name="*_d"  type="double" indexed="true"  stored="true"/>
+        <dynamicField name="*_ds" type="double" indexed="true"  stored="true"  multiValued="true"/>
+        <!-- Type used to index the lat and lon components for the "location" FieldType -->
+        <dynamicField name="*_coordinate"  type="tdouble" indexed="true"  stored="false" />
+        <dynamicField name="*_dt"  type="date"    indexed="true"  stored="true"/>
+        <dynamicField name="*_dts" type="date"    indexed="true"  stored="true" multiValued="true"/>
+        <dynamicField name="*_p"  type="location" indexed="true" stored="true"/>
+
     </fields>
 
     <uniqueKey>url</uniqueKey>
